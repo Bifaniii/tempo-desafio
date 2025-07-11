@@ -24,18 +24,33 @@ O arquivo `tempo.csv` contém as seguintes colunas:
    - Histogramas e gráficos de barras para entender a distribuição de umidade e temperatura por condição do tempo
 6. **Agrupamentos com `groupby()` e estatísticas descritivas**
 
-## 📊 Ferramentas Utilizadas
+## 📊 Visualizações da Análise
 
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+### Condições do Clima
+
+Analisamos a frequência das diferentes condições climáticas registradas no dataset:
+
+![Gráfico de Climas](images/Climas.png)
+
+### Relação entre Temperatura e Umidade
+
+Também foi explorada a relação entre temperatura e umidade, para entender possíveis padrões de dispersão:
+
+![Temperatura vs Umidade](images/Temperatura%20por%20Umidade.png)
 
 ## 🧠 Insights Relevantes
 
 - Foram encontrados e corrigidos valores inválidos nas colunas de Temperatura e Umidade.
 - A análise mostra como a condição do tempo influencia na decisão de jogar ou não.
 - Gráficos comparativos de estatísticas de umidade por temperatura permitiram melhor compreensão dos padrões no conjunto.
+- A condição "chuva" está fortemente associada a recomendações de **não jogar**, enquanto "sol" favorece o **sim**.
+
+## 📊 Ferramentas Utilizadas
+
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
 
 ## 🚀 Como Executar
 
